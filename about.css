@@ -1,0 +1,118 @@
+/* Styles for the about page */
+
+/* Main content styles */
+header {
+    background-color: #FFA500; /* Orange background */
+    color: #FFFFFF; /* White text */
+    height: 60px; /* Adjust height as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add padding as needed */
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logo a {
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav li a {
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    font-size: 16px;
+  }
+.about-us, .our-tutors, .why-choose-us {
+	margin: 50px auto;
+	max-width: 800px;
+}
+
+.about-us h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.about-us p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.our-tutors h2, .why-choose-us h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.our-tutors p, .why-choose-us ul {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.why-choose-us ul {
+	list-style: disc;
+	margin-left: 30px;
+}
+
+.why-choose-us li {
+	margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+}
+footer {
+    background-color:#FF8C00;
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .address p,
+  .contact p {
+    margin-bottom: 5px;
+  }
+  
+  .fb {
+    color: blue;
+  }
+  
+  .yt {
+    color: red;
+  }
+  
+  .google-reviews {
+    color: yellow;
+  }
+  

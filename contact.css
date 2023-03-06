@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #FFA500;
+    /* Orange background */
+    color: #FFFFFF;
+    /* White text */
+    height: 60px;
+    /* Adjust height as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    /* Add padding as needed */
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logo a {
+    color: #FFFFFF;
+    /* White text */
+    text-decoration: none;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav li a {
+    color: #FFFFFF;
+    /* White text */
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border:black;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  a {
+    color: #ff8c00;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 1rem;
+  }
+  
